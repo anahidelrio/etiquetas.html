@@ -34,7 +34,7 @@
    </ol>
 </div>
 <div>
-    <4>Lista desordenada</4>
+    <h4>Lista desordenada</h4>
     <ul>
     <li>uno</li>
     <li>dos</li>
@@ -42,8 +42,78 @@
     <li>cuatro</li> 
     </ul>
 </div>
+<div>
+    <h4>Lista ordenada con link externos</h4>
+    <div>
+        <ol>
+            <li><a href="https://www.youtube.com/watch?v=cWGE9Gi0bB0&ab_channel=JellyfishRecords">Pink Floyd - Shine On You Crazy Diamond</a></li>
+            <li><a href="https://www.youtube.com/watch?v=lXgkuM2NhYI&ab_channel=DavidBowie">David Bowie - Heroes</a></li>
+            <li><a href="https://www.youtube.com/watch?v=fHiGbolFFGw&ab_channel=Radiohead">Radiohead - Paranoid Android</a></li>
+            <li><a href="https://www.youtube.com/watch?v=QetvK6ldl2s&ab_channel=QueensOfTheStoneAge">Queens Of The Stone Age - Smooth Sailing</a></li>
+        </ol>
+    </div>
+</div>
 <div> 
-    
+    <h4>Formularios</h4>
+    <p>Para los formularios es necesario estas etiquetas: LABEL mas INPUT, más: TYPE, FOR, ID, NAME y 
+        required es para campo obligarorio. Existen otras estiquetas que dependen de el tipo de cuestionario. Para enviar los formularios rellenos
+    se coloca etiqueta action="pagina de enlace" dentro del form.</p>
+    <form>
+        <div>
+        <label for="nombreusuario">Nombre de usuario<input type="text" id="nombreusuario" name="nombreusuario" required></label>
+    </div>
+    <div>
+        <label for="password">Contraseña<input type="password" id="password" name="password"  required></label>
+    </div>
+    <div>
+        <label for="email">Email<input type="email" id="email" name="email"  required></label>
+    </div>
+    <div>
+        <label for="edad">Edad<input type="number" id="edad" name="edad" min="1" max="150" required></label>
+    </div>
+    <div>
+        <label for="nacimiento">Fecha nacimiento<input type="date" id="nacimiento" name="nacimiento"  required></label>
+    </div>
+    <div>
+        <button>Enviar</button>
+    </div>
+    <div>
+        
+        <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios"></textarea> 
+    </div>
+    <div>
+        <p>Tipos de Botones</p>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+        </div>
+    </div>
+</div>
+<div>
+    <h4>Tablas</h4>
+    <table>
+        <tr>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+            <th>Domingo</th>
+        </tr>
+        <tr>
+            <td>9 a 15</td>
+            <td>9 a 15</td>
+            <td>9 a 15</td>
+            <td>9 a 15</td>
+            <td>9 a 15</td>
+            <td>Descanso</td>
+            <td>Descanso</td>
+        </tr>
+    </table>
 </div>
 </body>
 </html>
